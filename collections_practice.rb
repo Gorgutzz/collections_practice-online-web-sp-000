@@ -9,3 +9,4 @@ end
 
 def sory_array_char_count(integers)
   integers.sort {|a, b| a.length <=> y.length}
+end
