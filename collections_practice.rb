@@ -30,8 +30,8 @@ def find_a(array)
       return_array << word
     end
   end
-  reutrn_array
-  end
+  return_array
+end
 
 def sum_array(integers)
   sum = 0
