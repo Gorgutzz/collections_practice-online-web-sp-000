@@ -12,5 +12,6 @@ def sory_array_char_count(strings)
 end
 
 def swap_elements(elements)
-  elements[0], elements[1] = elements[1], elements[0] 
-  elements 
+  elements[0], elements[1] = elements[1], elements[0]
+  elements
+end
