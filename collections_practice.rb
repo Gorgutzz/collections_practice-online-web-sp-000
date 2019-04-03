@@ -11,5 +11,6 @@ def sory_array_char_count(strings)
   strings.sort {|a, b| a.strings <=> b.length}
 end
 
-def swap_elements(integers)
-  integers
+def swap_elements(elements)
+  elements[0], elements[1] = elements[1], elements[0] 
+  elements 
