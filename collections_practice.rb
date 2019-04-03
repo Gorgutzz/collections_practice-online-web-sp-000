@@ -29,7 +29,6 @@ def find_a(array)
     if word.start_with?("a")
       return_array << word
     end
-  end
 
 def sum_array(integers)
   sum = 0
