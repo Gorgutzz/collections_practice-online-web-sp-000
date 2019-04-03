@@ -17,4 +17,17 @@ end
 
 def reverse_array(integers)
   integers.reverse
-end 
+end
+
+def kesha_maker(strings)
+  i = 0
+end
+
+def find_a(strings)
+
+end
+
+def sum_array(integers)
+  integers.sum
+end
+  
