@@ -32,3 +32,11 @@ def sum_array(integers)
   integers.each { |number| sum += number }
   sum
 end
+
+def add_s(words)
+  counter = 0
+  words.collect dp |word|
+    counter += 1
+    word = counter !=2 ? word + "s" : word
+  end
+end
