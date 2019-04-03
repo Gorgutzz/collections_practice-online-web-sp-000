@@ -23,13 +23,9 @@ def kesha_maker(strings)
   strings.each{|string| string[2] = "$"}
 end
 
-def find_a(array)
-  return_array = []
-  array.each do |word|
-    if word.start_with?("a")
-      return_array << word
-    end
-  end
+def find_a(strings)
+  strings.select{|string| string[0] == "a"}
+end
 
 def sum_array(integers)
   sum = 0
