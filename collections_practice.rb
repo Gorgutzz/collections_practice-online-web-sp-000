@@ -42,3 +42,4 @@ def add_s(words)
     word = counter !=2 ? word + "s" : word
   end
 end
+end
