@@ -42,4 +42,5 @@ def add_s(words)
   words.collect do |word|
     counter += 1
     word = counter !=2 ? word + "s" : word
+  end
 end
