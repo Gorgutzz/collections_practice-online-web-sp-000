@@ -19,8 +19,8 @@ def reverse_array(integers)
   integers.reverse
 end
 
-def kesha_maker(array)
-  array.each{|string| string[2] = "$"}
+def kesha_maker(strings)
+  strings.each{|string| string[2] = "$"}
 end
 
 def find_a(array)
