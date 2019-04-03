@@ -35,7 +35,7 @@ end
 
 def add_s(words)
   counter = 0
-  words.collect dp |word|
+  words.collect do |word|
     counter += 1
     word = counter !=2 ? word + "s" : word
   end
