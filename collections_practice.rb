@@ -33,4 +33,3 @@ def sum_array(integers)
   sum
   integers.sum
 end
-  
