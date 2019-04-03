@@ -19,9 +19,7 @@ def reverse_array(integers)
   integers.reverse
 end
 
-def kesha_maker(strings)
-  i = 0
-end
+
 
 def find_a(array)
   return_array = []
