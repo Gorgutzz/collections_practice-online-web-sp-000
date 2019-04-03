@@ -29,6 +29,7 @@ def find_a(array)
     if word.start_with?("a")
       return_array << word
     end
+  end
 
 def sum_array(integers)
   sum = 0
@@ -41,5 +42,4 @@ def add_s(words)
   words.collect do |word|
     counter += 1
     word = counter !=2 ? word + "s" : word
-  end
 end
