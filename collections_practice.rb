@@ -23,11 +23,11 @@ def kesha_maker(strings)
   i = 0
 end
 
-def find_a(strings)
-  return_strings = []
-  strings.each do |word|
+def find_a(array)
+  return_array = []
+  array.each do |word|
     if word.start_with?("a")
-      return_strings << word
+      return_array << word
     end
   end
 
