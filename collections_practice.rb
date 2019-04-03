@@ -24,7 +24,11 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-
+  return_string = []
+  string.each do |word|
+    if word.start_with?("a")
+      return_strings << word
+    end
 end
 
 def sum_array(integers)
